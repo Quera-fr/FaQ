@@ -8,7 +8,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-st.sidebare.selectbox('Choisissez votre modèle', ["Modèle 1", "Modèle 2", "Modèle 3"])
+st.sidebar.selectbox('Choisissez votre modèle', ["Modèle 1", "Modèle 2", "Modèle 3"])
 
 st.title("FAQ")
 
