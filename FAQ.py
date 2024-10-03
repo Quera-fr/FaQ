@@ -8,6 +8,8 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+st.sidebare.selectbox('Choisissez votre modèle', ["Modèle 1", "Modèle 2", "Modèle 3"])
+
 st.title("FAQ")
 
 if "messages" not in st.session_state:
