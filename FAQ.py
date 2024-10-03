@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.set_pageconfig(
+st.set_page_config(
     page_title="FAQ",
     page_icon="🧊",
     layout="wide",
